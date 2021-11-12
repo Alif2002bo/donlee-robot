@@ -80,10 +80,10 @@ async def start(bot, message):
         caption=Translation.START_TEXT.format(
                 message.from_user.mention, DEV_USERNAME),
         reply_markup=InlineKeyboardMarkup([[
-              InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/donlee_robot?startgroup=true')
+              InlineKeyboardButton('🙏 Share Groups 🙏', url='http://t.me/donlee_robot?startgroup=true')
               ],[
-              InlineKeyboardButton(GROUP, url=HAAAAAAAAA),
-              InlineKeyboardButton(CHANNEL, url=CHANNEL_LINK)
+              InlineKeyboardButton(♥️ join GROUP ♥️, url=HAAAAAAAAA),
+              InlineKeyboardButton(CHANNEL 😜, url=CHANNEL_LINK)
               ],[
               InlineKeyboardButton('ℹ️ Help', callback_data='help'),
               InlineKeyboardButton('😊 About', callback_data='about')
