@@ -82,8 +82,8 @@ async def start(bot, message):
         reply_markup=InlineKeyboardMarkup([[
               InlineKeyboardButton('🙏 Share Groups 🙏', url='http://t.me/donlee_robot?startgroup=true')
               ],[
-              InlineKeyboardButton(♥️join GROUP, url=HAAAAAAAAA),
-              InlineKeyboardButton(CHANNEL 😜, url=CHANNEL_LINK)
+              InlineKeyboardButton(join GROUP, url=HAAAAAAAAA),
+              InlineKeyboardButton(join CHANNEL, url=CHANNEL_LINK)
               ],[
               InlineKeyboardButton('ℹ️ Help', callback_data='help'),
               InlineKeyboardButton('😊 About', callback_data='about')
